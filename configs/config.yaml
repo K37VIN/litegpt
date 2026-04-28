@@ -1,0 +1,16 @@
+model:
+  n_layers: 4
+  n_heads: 4
+  n_embed: 128
+  block_size: 128
+
+training:
+  batch_size: 32
+  lr: 0.0003
+  steps: 5000
+
+data:
+  dataset_path: "data/raw/input.txt"
+
+tokenizer:
+  vocab_size: 2000
