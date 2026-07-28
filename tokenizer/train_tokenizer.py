@@ -15,7 +15,7 @@ def train_tokenizer(files, vocab_size=2000):
         special_tokens=["<pad>", "<s>", "</s>", "<unk>"]
     )
 
-    #
+    
     os.makedirs("tokenizer", exist_ok=True)
     tokenizer.save_model("tokenizer")
 
